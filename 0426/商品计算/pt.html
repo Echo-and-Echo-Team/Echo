@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>购物车商品数量</title>
+	<link rel="stylesheet" type="text/css" href="../../public/global.css" />
+
+	<style type="text/css">
+		#content{width: 800px;padding:10px;margin: 0 auto;border: 2px solid pink;}
+		
+		#listWrap{background: pink;}
+		.list{padding: 10px;margin-bottom: 10px;background: skyblue;}
+		.left{font-size: 0;}
+		.left input{outline: 0;}
+		.left input{height:28px;font-size:14px;text-align: center;line-height: 28px;border-radius: 4px;border: 1px solid #afafaf;margin-right: 4px;}
+		.left input[type="text"]{width: 80px;}
+		.left input[type="button"]{width: 40px;cursor: pointer;}
+		.left{float: left;}
+		.right{float: right;line-height: 30px;}
+		#content em{margin-right: 8px;font-style: normal;}
+		.right em{font-size: 12px;font-style: normal;}
+		#content em span{color: #f00;}
+		
+		#sumWrap{padding: 10px;text-align: right;background: deepskyblue;}
+
+	</style>
+	
+</head>
+<body>
+	<section id="content">
+		
+		<section id="listWrap">
+			<section class="list clearfix">
+				<div class="left">
+					<input type="button" name="" value="-" class="reduce">
+					<input type="text" name="" value="1" class="setNumber">
+					<input type="button" name="" value="+" class="add">
+				</div>
+				<div class="right">
+					<em>单价：<span class="price">24.05</span>元</em>
+					<em>件数：<span class="number"></span>件</em>
+					<em>总计：<span class="total"></span>元</em>
+				</div>
+			</section>
+
+			<section class="list clearfix">
+				<div class="left">
+					<input type="button" name="" value="-" class="reduce">
+					<input type="text" name="" value="3" class="setNumber">
+					<input type="button" name="" value="+" class="add">
+				</div>
+				<div class="right">
+					<em>单价：<span class="price">58.12</span>元</em>
+					<em>件数：<span class="number"></span>件</em>
+					<em>总计：<span class="total"></span>元</em>
+				</div>
+			</section>
+			
+		</section>
+
+		<section id="sumWrap">
+			<em>件数：<span class="totalNumber"></span>件</em>
+			<em>总价：<span class="totalPrice"></span>元</em>
+		</section>
+	
+	</section>
+
+	<script type="text/javascript" src="pt.js"></script>
+</body>
+</html>

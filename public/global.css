@@ -1,0 +1,91 @@
+@charset 'utf-8';
+
+html {
+	height: 100%;
+}
+body {
+	font-family: arial, '微软雅黑';
+}
+body, p, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dt, input, textarea, th, td {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: none;
+}
+li {
+	list-style: none;
+}
+.clearfix {
+	*zoom: 1;
+}
+.clearfix:after {
+	display: block;
+	height: 0;
+	font-size: 0;
+	content: '';
+	clear: both;
+	visibility: hidden;
+}
+
+
+
+/* border-style: solid double(双实线) dashed(虚线) dotted(点状);
+
+去点击默认边框
+input {
+	outline: 0;
+}
+/*
+换行
+p {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+超出省略
+p {
+	width: 100px;
+	height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+设置鼠标形状
+span {
+	cursor: pointer / help / wait / move /crosshair;
+}
+
+内联元素中间会有间隙
+span {
+	display: inline-block; // 中间会有间隙
+	font-size: 0; //清除间隙
+}
+
+//图片文字对齐方式
+img {
+	vertical-align: top / bottom / middle / baseline基线对齐;
+}
+
+透明度
+div {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+三角形
+div {
+	width: 0;
+	height: 0;
+	overflow: 0; //IE6最小高度19px
+	border: 10px solie transparent;
+	_border: 10px solid 背景色; //IE6
+	border-bottom-color: skyblue;
+}
+
+阻止a跳转,href="javascript:;"
+*/
